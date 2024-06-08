@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Raciocínio Algorítmico: Aula 07-06",
-    page_icon="👋🤓",
+    page_icon="🤓",
 )
 
 st.header("Aula 07/06") 
