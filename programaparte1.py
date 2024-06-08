@@ -33,7 +33,7 @@ st.write("Exercício 2 - Apresente os dados do dataframe utilizando gráficos. C
 
 code = '''
 fig, ax = plt.subplots()
-dfe.plot()
+dfe.plot(ax=ax)
 st.pyplot(fig)
 '''
 st.code(code, language='python')
