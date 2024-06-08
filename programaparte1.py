@@ -12,7 +12,7 @@ st.subheader("Adaptação do Código")
 
 "---"
 
-st.write('''Exercício 1 - Leia o arquivo empresa1.csv e apresente os resultados 3 primeiros resultados da tabela usando o método head()
+st.write('''**Exercício 1** - Leia o arquivo empresa1.csv e apresente os resultados 3 primeiros resultados da tabela usando o método head()
 
 Exigência: deve utilizar o pacote panda''')
 
@@ -29,7 +29,7 @@ st.dataframe(dfe.head(3))
 
 "---"
 
-st.write("Exercício 2 - Apresente os dados do dataframe utilizando gráficos. Crie um gráfico de linha, simples, que apresente todos os indicadores ao longo do tempo. Crie um gráfico de dispersão para ajudar na relação entre EBITDA e Lucro operacional. Crie um histograma do Lucro do período.")
+st.write("**Exercício 2** - Apresente os dados do dataframe utilizando gráficos. Crie um gráfico de linha, simples, que apresente todos os indicadores ao longo do tempo. Crie um gráfico de dispersão para ajudar na relação entre EBITDA e Lucro operacional. Crie um histograma do Lucro do período.")
 
 code = '''
 fig, ax = plt.subplots()
@@ -66,7 +66,7 @@ st.pyplot(fig)
 
 "---"
 
-st.write("Exercício 3 - Agrupe a base acima por ano, em um novo dataframe, e apresente a soma das demais coluna")
+st.write("**Exercício 3** - Agrupe a base acima por ano, em um novo dataframe, e apresente a soma das demais coluna")
 
 code = '''
 st.write(dfe.groupby('Ano').mean())
