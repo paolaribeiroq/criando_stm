@@ -14,7 +14,7 @@ st.subheader("Adaptação do Código")
 
 st.write('''**Exercício 1** - Leia o arquivo empresa1.csv e apresente os resultados 3 primeiros resultados da tabela usando o método head()
 
-Exigência: deve utilizar o pacote panda''')
+Exigência: deve utilizar o pacote panda 🐼''')
 
 code = '''
 arquivo = "https://raw.githubusercontent.com/paolaribeiroq/criando_stm/main/empresa1.csv" 
