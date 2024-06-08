@@ -39,7 +39,7 @@ st.pyplot(fig)
 st.code(code, language='python')
 
 fig, ax = plt.subplots()
-dfe.plot()
+dfe.plot(ax=ax)
 st.pyplot(fig)
 
 code = '''
