@@ -17,13 +17,13 @@ Exigência: deve utilizar o pacote panda''')
 code = '''
 arquivo = "https://raw.githubusercontent.com/paolaribeiroq/criando_stm/main/empresa1.csv" 
 dfe = pd.read_csv(arquivo, sep=';') 
-st.dataframe(dfe(3))
+st.dataframe(dfe)
 '''
 st.code(code, language='python')
 
 arquivo = "https://raw.githubusercontent.com/paolaribeiroq/criando_stm/main/empresa1.csv" 
 dfe = pd.read_csv(arquivo, sep=';') 
-st.dataframe(dfe(3))
+st.dataframe(dfe)
 
 st.write("Exercício 2 - Apresente os dados do dataframe utilizando gráficos. Crie um gráfico de linha, simples, que apresente todos os indicadores ao longo do tempo. Crie um gráfico de dispersão para ajudar na relação entre EBITDA e Lucro operacional. Crie um histograma do Lucro do período.")
 
