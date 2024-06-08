@@ -50,7 +50,7 @@ st.pyplot(fig)
 st.code(code, language='python')
 
 fig, ax = plt.subplots()
-dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
+dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional', ax=ax)
 st.pyplot(fig)
 
 code = '''
