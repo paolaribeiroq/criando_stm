@@ -35,14 +35,6 @@ code = '''
 fig, ax = plt.subplots()
 dfe.plot()
 st.pyplot(fig)
-
-fig, ax = plt.subplots()
-dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
-st.pyplot(fig)
-
-fig, ax = plt.subplots()
-dfe["Lucro do período"].plot(kind = 'hist')
-st.pyplot(fig)
 '''
 st.code(code, language='python')
 
@@ -50,9 +42,23 @@ fig, ax = plt.subplots()
 dfe.plot()
 st.pyplot(fig)
 
+code = '''
 fig, ax = plt.subplots()
 dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
 st.pyplot(fig)
+'''
+st.code(code, language='python')
+
+fig, ax = plt.subplots()
+dfe.plot(kind = 'scatter', x = 'EBITDA', y = 'Lucro operacional')
+st.pyplot(fig)
+
+code = '''
+fig, ax = plt.subplots()
+dfe["Lucro do período"].plot(kind = 'hist')
+st.pyplot(fig)
+'''
+st.code(code, language='python')
 
 fig, ax = plt.subplots()
 dfe["Lucro do período"].plot(kind = 'hist')
