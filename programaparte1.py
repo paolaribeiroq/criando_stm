@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 st.header("Aula 07/06") 
-st.subheader("Adaptação do Código")
+st.subheader("Dados da Empresa1 🏢")
 
 "---"
 
